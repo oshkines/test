@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfd574ea-034d-4c68-bdc0-84d31925834a">
+  <producedTypes>
+    <refType typeId="134239fd-ee69-4977-9b3b-a38152003423" valueTypeId="7058abc1-f5e5-45c3-96f1-8b05168f6752"/>
+    <listType typeId="1a03d1ff-ca99-40fd-a5b4-80b2884c0693" valueTypeId="7ad89ef7-84b9-4019-852f-f1102d04c388"/>
+    <managerType typeId="5687e77a-89d2-4351-932a-584169a90686" valueTypeId="acf1e442-cebc-4496-9449-0c9aa28459d0"/>
+  </producedTypes>
+  <name>Dev2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dev2</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="01b75aef-73a2-4b72-a2f4-b71bb96e79db">
+    <name>ZnachenieDev2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Znachenie dev2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
