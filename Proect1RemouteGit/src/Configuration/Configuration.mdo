@@ -42,5 +42,6 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
-  <documents>Document.Документ1</documents>
+  <documents>Document.Dev1</documents>
+  <enums>Enum.Dev1</enums>
 </mdclass:Configuration>
