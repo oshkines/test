@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09a6c94d-e623-4561-8548-68893c7e3b2e">
+  <producedTypes>
+    <objectType typeId="1e9fbfe6-eebb-4a3a-b4b8-1e54909088cc" valueTypeId="43f2cce2-7bc8-40c1-a841-5b7292f7b456"/>
+    <refType typeId="2533ba5a-b661-448f-8d0c-f81b155c24dc" valueTypeId="14b6bb1a-2217-4dfa-bd76-80f4d6dbe5ba"/>
+    <selectionType typeId="4b388093-45c0-498c-8bbe-7db558fe3ea1" valueTypeId="b7d87970-3582-429d-ab10-f68275ac8ddd"/>
+    <listType typeId="d6fefe89-9eee-465a-9161-118431ca6604" valueTypeId="4caee3f9-0088-4ce9-a627-10840db79479"/>
+    <managerType typeId="e81eeb7e-a4bf-413c-9397-c540168f9ca3" valueTypeId="951ee941-a462-4588-abe5-0700f7cd2b7e"/>
+  </producedTypes>
+  <name>Dev2_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dev2 2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Dev2_2.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="563006a4-3f68-4c35-a6a7-00ec26219636">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Dev1</types>
+      <types>EnumRef.Dev2</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

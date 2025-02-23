@@ -19,4 +19,11 @@
       <value>Znachenie dev1</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="d14606e7-3b97-4d3b-a241-01468b740442">
+    <name>ZnachenieDev2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Znachenie dev2</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
