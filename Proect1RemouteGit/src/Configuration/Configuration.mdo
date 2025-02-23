@@ -43,5 +43,6 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <documents>Document.Dev1</documents>
+  <documents>Document.Dev1_2</documents>
   <enums>Enum.Dev1</enums>
 </mdclass:Configuration>
