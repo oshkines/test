@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a88cbb7-64da-4903-aca4-7ed8fa2470a3">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a88cbb7-64da-4903-aca4-7ed8fa2470a3">
   <producedTypes>
     <objectType typeId="8dd28efa-0698-4d2c-bf8e-c8e6e2190f85" valueTypeId="11ca05c4-0dfd-42dc-bb2d-817000548df5"/>
     <refType typeId="99645d1b-a975-4be4-8690-c386e3b132b1" valueTypeId="01de2007-d6b1-46b5-ac3f-d3d448dcb81f"/>
@@ -7,9 +7,9 @@
     <listType typeId="ae5dfc97-24e7-457b-ac12-a981336ad611" valueTypeId="328aa43b-8d36-4cd2-b7c1-64868364f00a"/>
     <managerType typeId="cd126161-6cf1-4377-b131-614653bdefa6" valueTypeId="85e55c3a-7e3a-4a86-a0ac-24ea6293f9bf"/>
   </producedTypes>
-  <name>Документ1</name>
+  <name>Dev1</name>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Документ1.StandardAttribute.Number</inputByString>
+  <inputByString>Document.Dev1.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -21,4 +21,19 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1cbeaf9f-cf2d-4239-a489-58954fea59bb">
+    <name>Dev1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Dev1</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Dev1</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
